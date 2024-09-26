@@ -1,0 +1,459 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0px 230px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.navbar .left {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    align-items: center; 
+}
+
+.nav-right {
+    display: flex;                
+    align-items: center;        
+    justify-content: center;      
+    text-align: center;         
+    height: 100px;
+    gap: 38px;
+}
+
+.nav-jobs {
+    display: flex;              
+    flex-direction: column;    
+    align-items: center;         
+    justify-content: center;      
+    text-align: center;
+    height: 100%;
+}
+
+.nav-jobs h1 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.nav-messages {
+    display: flex;              
+    flex-direction: column;    
+    align-items: center;         
+    justify-content: center;      
+    text-align: center;
+    height: 100%;
+}
+
+.nav-messages h1 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.nav-home {
+    display: flex;              
+    flex-direction: column;    
+    align-items: center;         
+    justify-content: center;      
+    text-align: center;
+    height: 100%;
+}
+
+.nav-home h1 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.nav-profile h1 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.nav-profile {
+    display: flex;              
+    flex-direction: column;    
+    align-items: center;         
+    justify-content: center;      
+    text-align: center;
+    height: 100%;
+}
+
+.nav-notifications h1 {
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 2px;
+    padding: 0;
+    font-weight: 500;
+}
+
+.nav-notifications {
+    display: flex;              
+    flex-direction: column;    
+    align-items: center;         
+    justify-content: center;      
+    text-align: center;
+    height: 100%;
+}
+
+.nav-profile img {
+    width: 18px;
+    margin-left: 0px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 200px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo .logoimg {
+    width: 32px;
+    cursor: pointer;
+}
+
+.search {
+    padding: 0px 14px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(40, 40, 40);
+    text-align: left;
+    color: rgb(193, 193, 193);
+    display: flex; 
+    gap: 10px;
+    align-items: center;
+}
+
+.search h1 {
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0; 
+    line-height: 1; 
+}
+
+.whole {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0px 210px;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    width: 240px;
+    /* background-color: red; */
+}
+
+.main-left {
+    gap: 10px;
+    width: 240px;
+    margin-left: 0;
+    margin-top: 18px;
+    padding: 0;
+    /* background-color: red; */
+}
+
+.left-profile {
+    background-color: rgb(22, 22, 22);
+    border-radius: 10px;
+    margin: 0;
+    border: 1px solid rgb(39, 39, 39);
+    padding: 20px 18px;
+    min-height: 220px;
+    box-sizing: border-box; 
+}
+
+.left-profile img {
+    width: 66px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 200px;
+}
+
+.left-profile h1, .left-profile h2, .left-profile p {
+    margin: 0px 0px;
+    padding: 0;
+}
+
+.left-profile h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.left-profile h2 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    width: 100%; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+
+.left-profile p {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(160, 160, 160);
+    width: 100%; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+
+.left-viewers {
+    background-color: rgb(22, 22, 22);
+    border-radius: 10px;
+    margin: 0;
+    padding: 20px 18px;
+    border: 1px solid rgb(39, 39, 39);
+    min-height: 40px;
+    margin-top: 10px;
+}
+
+.viewers h1 {
+    font-size: 12px;
+    padding: 0;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+    /* background-color: red; */
+}
+
+.viewers h1:hover {
+    text-decoration: underline;
+}
+
+.impressions h1 {
+    font-size: 12px;
+    padding: 0;
+    font-weight: 400;
+    margin: 0;
+    /* background-color: red; */
+}
+
+.impressions h1:hover {
+    text-decoration: underline;
+}
+
+.viewers {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.impressions {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.main-right {
+    gap: 10px;
+    width: 240px;
+    margin: 0 20px;
+    margin-top: 18px;
+    padding: 0;
+    /* background-color: red; */
+}
+
+.right-profile {
+    background-color: rgb(22, 22, 22);
+    border-radius: 10px;
+    margin: 0;
+    border: 1px solid rgb(39, 39, 39);
+    padding: 20px 18px;
+    min-height: 220px;
+    box-sizing: border-box; 
+}
+
+.right-profile h1, .right-profile h2, .right-profile p {
+    margin: 0px 0px;
+    padding: 0;
+}
+
+.right-profile h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+   
+}
+
+.right-profile h2 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    width: 100%; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    cursor: pointer;
+}
+
+.right-profile h2:hover {
+    text-decoration: underline;
+}
+
+.right-profile p {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(160, 160, 160);
+    width: 100%; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    margin-bottom: 15px;
+}
+
+.post-whole {
+    margin: 0px 0px;
+    padding: 0;
+    height: auto;
+    /* background-color: red; */
+}
+
+.post {
+    background-color: rgb(22, 22, 22);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(39, 39, 39);
+    padding: 20px 18px;
+    min-height: 540px;
+    min-width: 545px;
+    max-width: 545px;
+    box-sizing: border-box; 
+    /* background-color: red; */
+}
+
+.post-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.post {
+    background-color: rgb(22, 22, 22);
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 545px;
+    border: 1px solid rgb(39, 39, 39);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-header img {
+    width: 50px;
+    object-fit: cover; 
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.post-user-info h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.post-user-info p {
+    margin: 0;
+    color: #aaa;
+    font-size: 12px;;
+}
+
+.post-user-info span {
+    font-size: 12px;
+    color: #777;
+}
+
+.post-content {
+    margin-top: 0px;
+}
+
+.post-content p {
+    color: #ebebeb;
+    font-size: 13px;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+.post-footer {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-footer p {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.likes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-footer img {
+    width: 30px;                
+    height: 30px;               
+    border-radius: 50%;      
+    margin-right: 0;
+    object-fit: cover; 
+}
+
+.post-actions button {
+    background: none;
+    border: none;
+    color: #bbbbbb;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 0px;
+}
+
+.post-actions button:hover {
+    text-decoration: underline;
+}
