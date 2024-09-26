@@ -9,7 +9,7 @@ const PostsList = () => {
             title: 'Ex-Googler | Ex-Metaoer | Ex-Amazoner | Ex-Boyfri..',
             time: '42m',
             content: "Junior developers punching thin air as tech companies wants new grads with 87 years of experience.",
-            image: '/sadman.webp',
+            image: '/angryman2.jpeg',
             likes: '169 miserable fucks liked this',
         },
         {
