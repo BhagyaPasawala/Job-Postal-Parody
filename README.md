@@ -2,7 +2,9 @@ StinkedIn is the anti-networking platform you never knew you needed! A parody of
 
 Built using ReactJs, for now this is just a front-end UI project, but I am working on its backend so that anyone can post anything they want.
 
-StinkedIn is a parody project created solely for fun and educational purposes. It is not intended for commercial use, and I do not earn any profit from this project. And this project is in no way affiliated with or endorsed by LinkedIn. The purpose of StinkedIn is to practice and showcase my coding skills, and no infringement is intended. But if anyone's offended, you have my regards.
+StinkedIn is a parody project created solely for fun and educational purposes. It is not intended for commercial use, and I do not earn any profit from this project. And this project is in no way affiliated with or endorsed by LinkedIn. The purpose of StinkedIn is to practice and showcase my coding skills, and no infringement is intended.
+
+But still, if anyone's offended, you have my regards.
 
 # React + Vite
 
