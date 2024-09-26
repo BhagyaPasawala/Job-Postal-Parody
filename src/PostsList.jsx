@@ -35,7 +35,7 @@ const PostsList = () => {
     return (
         <div>
             {postsData
-                .filter(post => post && post.id) // Only render valid posts
+                .filter(post => post && post.id) 
                 .map(post => (
                     <Post key={post.id} {...post} />
                 ))}
