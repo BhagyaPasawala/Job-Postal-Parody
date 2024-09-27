@@ -4,7 +4,7 @@ const RightNews = () => {
     return( 
         <div className="main-right">
             <div className="right-profile">
-                <h1> StinkedIn News</h1>
+                <h1>News</h1>
                 <h2>Software Engineers left jobless as AI takes over coffee machine operations. </h2>
                 <p>6h ago • 8,203 caffeine addicts</p>
 
