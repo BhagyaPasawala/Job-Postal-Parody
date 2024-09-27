@@ -2,13 +2,8 @@ StinkedIn is the anti-networking platform you never knew you needed! A parody of
 
 Built using ReactJs, for now this is just a front-end UI project, but I am working on its backend so that anyone can post anything they want.
 
-StinkedIn is a parody project created solely for fun and educational purposes. It is not intended for commercial use, and I do not earn any profit from this project. And this project is in no way affiliated with or endorsed by LinkedIn. The purpose of StinkedIn is to practice and showcase my coding skills, and no infringement is intended. But if anyone's offended, you have my regards.
+StinkedIn is a parody project created solely for fun and educational purposes. It is not intended for commercial use, and I do not earn any profit from this project. And this project is in no way affiliated with or endorsed by LinkedIn. The purpose of StinkedIn is to practice and showcase my coding skills, and no infringement is intended.
 
-# React + Vite
+But still, if anyone's offended, you have my regards.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Stinkedin](https://github.com/user-attachments/assets/c5cd1ceb-2a2f-4c64-87dc-9bb525b5d0ea)
